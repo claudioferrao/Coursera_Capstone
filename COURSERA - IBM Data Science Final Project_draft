@@ -1,0 +1,29 @@
+                                                  COURSERA - IBM DATA SCIENCE Certification
+-----------------------------------------------
+Where to live in Washington Metropolitan area?
+-----------------------------------------------
+
+1.1. Problem definition:
+
+The process of finding a new place to live can be a daunting experience, especially if you do not know much about the area you want to move, and/or if the area is too broad to research.
+This process can also be very time consuming and costly, especially if you are moving from a different city, state, country.
+
+1.2. Target audience:
+
+The analysis performed with this project is general and can be applied to any other city/county. In this project we are assuming that the area the family wants to search a place to live is Washington Metropolitan area.
+The Washington metropolitan area is the metropolitan area centered on Washington, D.C., the capital of the United States. The area includes all of the federal district and parts of the U.S. states of Maryland and Virginia, along with a small portion of West Virginia. 
+In this notebook we propose a way of shortening this search process by using data about the most popular venues of each Washington Metropolitan area county to help find their "venue profile".
+There are two group of people interested in this type of analysis:
+-	The real estate companies
+Knowing what are the requirements – venue profile of the client, this analysis will limit the search area to the preferred venues of clients, and therefore the need of real estate resources and time.
+-	The families that want to move or relocate to this area
+This type of analysis can speed up the process of searching a place to live saving time and money. It will also help families to have a more informed decision
+
+2. Data to support this project
+
+In order to tackle the problem of defining the "venue profiles" of neighborhoods in a county, we will use:
+
+-	Web scraping with BeautifulSoup to obtain a list of all counties from the Washington Metropolitan area.
+This will be done via the following ink: https://en.wikipedia.org/wiki/Washington_metropolitan_area
+-	Nominatim from geopy.geocoders for geocoding the County names into their coordinates.
+-	Foursquare API to get all venues in each County
