@@ -24,6 +24,6 @@ This type of analysis can speed up the process of searching a place to live savi
 In order to tackle the problem of defining the "venue profiles" of neighborhoods in a county, we will use:
 
 -	Web scraping with BeautifulSoup to obtain a list of all counties from the Washington Metropolitan area.
-This will be done via the following ink: https://en.wikipedia.org/wiki/Washington_metropolitan_area
+       This will be done via the following ink: https://en.wikipedia.org/wiki/Washington_metropolitan_area
 -	Nominatim from geopy.geocoders for geocoding the County names into their coordinates.
 -	Foursquare API to get all venues in each County
