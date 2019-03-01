@@ -25,5 +25,5 @@ In order to tackle the problem of defining the "venue profiles" of neighborhoods
 
 -	Web scraping with BeautifulSoup to obtain a list of all counties from the Washington Metropolitan area.
        This will be done via the following ink: https://en.wikipedia.org/wiki/Washington_metropolitan_area
--	Nominatim from geopy.geocoders for geocoding the County names into their coordinates.
+-	Nominatim from geopy.geocoders for geocoding the County names and get their coordinates.
 -	Foursquare API to get all venues in each County
